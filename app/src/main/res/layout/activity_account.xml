@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".mainFrame.PAccount">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/account_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/myAccount" />
+
+    <TextView
+        android:id="@+id/myname_text"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accountname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/myname_text"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accountid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/id"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/myid_text"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountstudentId_text" />
+
+    <TextView
+        android:id="@+id/accountstudentId_text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/studentId"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/mystudentid_text"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountname_text" />
+
+    <EditText
+        android:id="@+id/myoriginalpw_edit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myid_text" />
+
+    <TextView
+        android:id="@+id/accountnewpw_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:text="새 비밀번호"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/mynewpw_edit"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountoriginalpw_text" />
+
+    <TextView
+        android:id="@+id/mystudentid_text"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myname_text" />
+
+    <TextView
+        android:id="@+id/accountoriginalpw_text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:text="기존 비밀번호"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/myoriginalpw_edit"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountid_text" />
+
+    <EditText
+        android:id="@+id/mynewpw_edit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myoriginalpw_edit" />
+
+    <TextView
+        android:id="@+id/myid_text"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mystudentid_text" />
+
+    <Button
+        android:id="@+id/changepw_button"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/blue"
+        android:onClick="onChangePwButtonClicked"
+        android:text="비밀번호 변경"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mynewconfirm_edit" />
+
+    <Button
+        android:id="@+id/deleteaccount_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue"
+        android:onClick="onDeleteAccountButtonClicked"
+        android:text="회원 탈퇴"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changepw_button" />
+
+    <TextView
+        android:id="@+id/mynewconfirm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/confirm"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/mynewconfirm_edit"
+        app:layout_constraintTop_toBottomOf="@+id/accountnewpw_text" />
+
+    <EditText
+        android:id="@+id/mynewconfirm_edit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mynewpw_edit" />
+
+    <ImageButton
+        android:id="@+id/showoriginalpw_button"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:onClick="onShowPwButtonClicked"
+        app:layout_constraintBottom_toBottomOf="@+id/myoriginalpw_edit"
+        app:layout_constraintEnd_toEndOf="@+id/myoriginalpw_edit"
+        app:layout_constraintTop_toTopOf="@+id/myoriginalpw_edit"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <ImageButton
+        android:id="@+id/shownewpw_button"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:onClick="onShowNewPwButtonClicked"
+        app:layout_constraintBottom_toBottomOf="@+id/mynewpw_edit"
+        app:layout_constraintEnd_toEndOf="@+id/mynewpw_edit"
+        app:layout_constraintTop_toBottomOf="@+id/myoriginalpw_edit"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <ImageButton
+        android:id="@+id/shownewconfirm_button"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:onClick="onShowNewConfirmButtonClicked"
+        app:layout_constraintBottom_toBottomOf="@+id/mynewconfirm_edit"
+        app:layout_constraintEnd_toEndOf="@+id/mynewconfirm_edit"
+        app:layout_constraintTop_toTopOf="@+id/mynewconfirm_edit"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

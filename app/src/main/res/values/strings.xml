@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SIGN UP FOR MJU CLASSES</string>
+    <string name="myongjiUniversity">MJU</string>
+    <string name="signUpSystem">SIGN UP SYSTEM</string>
+    <string name="login">LOG IN</string>
+    <string name="pw">PW</string>
+    <string name="id">ID</string>
+    <string name="createAccount">CREATE ACCOUNT</string>
+    <string name="autoLogin">AUTO LOGIN</string>
+    <string name="findInfo">FIND INFO</string>
+    <string name="mjuLogo">MJU LOGO</string>
+    <string name="registration">Register</string>
+    <string name="nameHint">Enter Name</string>
+    <string name="studentIdHint">Enter Student Id</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="confirmHint">Enter Password Again</string>
+    <string name="idHint">Enter Id</string>
+    <string name="agreement">personal information collection agreement</string>
+    <string name="find">FIND</string>
+    <string name="name">NAME</string>
+    <string name="studentId">STUDENT ID</string>
+    <string name="myAccount">MY ACCOUNT</string>
+    <string name="myMiri">MY BASKET</string>
+    <string name="logout">LOG OUT</string>
+    <string name="contact">CONTACT DEVELOPER</string>
+    <string name="lecturePlanner">CHECK OUT LECTURE PLAN</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="mySincheong">APPLIED LECTURES</string>
+</resources>

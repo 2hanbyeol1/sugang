@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="root">
+        <item>1 용인 yongin</item>
+        <item>2 서울 seoul</item>
+    </string-array>
+    <string-array name="yongin">
+        <item>10 교양 generalY</item>
+        <item>11 공과대학 engineering</item>
+        <item>12 자연과학대학 science</item>
+        <item>13 예술체육대학 art</item>
+        <item>14 건축대학 architecture</item>
+    </string-array>
+    <string-array name="generalY">
+        <item>101 영어교양 englishYG</item>
+        <item>102 기초교양 basic</item>
+        <item>103 선택교양 selective</item>
+    </string-array>
+    <string-array name="engineering">
+        <item>111 전기공학과  electricity</item>
+        <item>112 컴퓨터공학과 computer</item>
+    </string-array>
+    <string-array name="science">
+        <item>120 수학과 math</item>
+        <item>121 물리학과 physics</item>
+        <item>122 화학과 chemistry</item>
+        <item>123 식품영양학과 food</item>
+        <item>124 생명과학정보학과 life</item>
+    </string-array>
+    <string-array name="art">
+        <item>130 디자인학부 design</item>
+        <item>131 체육학부 physical</item>
+        <item>132 음악학부 music</item>
+        <item>133 바둑학과 baduk</item>
+        <item>134 영화/뮤지컬학부 musical</item>
+    </string-array>
+    <string-array name="architecture">
+        <item>140 건축학부 architect</item>
+        <item>141 공간디자인전공 basicArchitecture</item>
+    </string-array>
+    <string-array name="seoul">
+        <item>20 교양 generalS</item>
+        <item>21 ICT융합대학 ict</item>
+        <item>22 경영대학 business</item>
+        <item>23 사회과학대학 social</item>
+        <item>24 인문대학 human</item>
+        <item>25 법학대학 law</item>
+    </string-array>
+    <string-array name="generalS">
+        <item>201 영어교양 englishYG</item>
+        <item>202 기초교양 basic</item>
+        <item>203 선택교양 selective</item>
+    </string-array>
+    <string-array name="ict">
+        <item>211 디지털콘텐츠 digitalContents</item>
+        <item>212 융합소프트웨어 software</item>
+    </string-array>
+    <string-array name="business">
+        <item>220 경영학과 management</item>
+        <item>221 국제통상학과 internationalTrade</item>
+        <item>222 경영정보학과 managementInformation</item>
+        <item>223 부동산학과 property</item>
+        <item>224 경영교육혁신센터 managementEducation</item>
+    </string-array>
+    <string-array name="social">
+        <item>230 행정학과 administration</item>
+        <item>231 경제학과 economy</item>
+        <item>232 정치외교학과 politics</item>
+        <item>233 디지털미디어학과 digitalMedia</item>
+        <item>234 아동학과 children</item>
+        <item>235 청소년지도학과 teenager</item>
+        <item>236 사회복지학과 welfare</item>
+    </string-array>
+    <string-array name="human">
+        <item>240 국어국문학과 korean</item>
+        <item>241 중어중문학과 chinese</item>
+        <item>242 일어일문학과 japanese</item>
+        <item>243 영어영문학과 english</item>
+        <item>244 사학과 history</item>
+        <item>245 문헌정보학과 library</item>
+        <item>246 미술사학과 artHistory</item>
+        <item>247 철학과 philosophy</item>
+        <item>248 아랍지역학과 arab</item>
+        <item>249 문예창작과 writing</item>
+    </string-array>
+    <string-array name="law">
+        <item>250 법학과 lawC</item>
+        <item>251 법무정책학과 politics</item>
+    </string-array>
+    <string-array name="englishYG">
+        <item>1010 영어1 여인욱 3 월수1030-1145</item>
+        <item>1011 영어회화1 다니엘 2 월수1030-1145</item>
+    </string-array>
+    <string-array name="basic">
+        <item>1020 글쓰기 육민수 3 월수1030-1145</item>
+        <item>1021 발표와토의 주민재 3 월수1030-1145</item>
+    </string-array>
+    <string-array name="selective">
+        <item>1030 한국근현대사의이해 윤홍석 3 월수1030-1145</item>
+        <item>1031 민주주의와현대사회 윤홍석 3 월수1030-1145</item>
+    </string-array>
+    <string-array name="electricity">
+        <item>1110 전기전자1 김민수 3 월수0900-1015</item>
+        <item>1111 전기전자2 김민수 3 월수1030-1145</item>
+    </string-array>
+    <string-array name="computer">
+        <item>1210 C언어 전종훈 3 화목1800-1950</item>
+        <item>1211 시스템과프로그래밍 권동섭 4 목금1300-1450</item>
+
+    </string-array>
+    <string-array name="math">
+        <item>1221 수학교재연구및지도법 박진형 2 화1300-1450</item>
+        <item>1222 정수론 소순태 3 월1300-1350</item>
+        <item>1223 해석학개론 홍덕현 3 월1400-1450</item>
+    </string-array>
+    <string-array name="physics">
+        <item>1310 물리학 김주학 3 월1000-1150</item>
+    </string-array>
+    <string-array name="chemistry">
+        <item>1140 화학2 김선경 3 월수0900-1015</item>
+    </string-array>
+    <string-array name="food">
+        <item>1230 식품학 황지영 3 월1300-1350</item>
+    </string-array>
+    <string-array name="life">
+        <item>1240 미생물학 이상희 4 월0900-1150</item>
+        <item>1241 생화학 권형진 3 화0900-1150</item>
+        <item>1242 산업미생물학 홍순광 3 수0900-1150</item>
+        <item>1243 바이러스학 이원근 3 목0900-1150</item>
+        <item>1244 면역학 이창로 3 금0900-1150</item>
+        <item>1245 유전학 최상봉 3 월1000-1150</item>
+        <item>1246 식물발달생리학 김상현 3 월1300-1350</item>
+        <item>1247 식물학 문정환 3 월1400-1550</item>
+    </string-array>
+    <string-array name="design">
+        <item>1300 통합디자인연구 신완식 3 월0900-1150</item>
+        <item>1301 디지털디자인 조태형 3 화0900-1150</item>
+        <item>1302 제품디자인기초 최종운 3 수0900-1150</item>
+        <item>1303 이미지와표현 최재은 3 목0900-1150</item>
+    </string-array>
+    <string-array name="physical">
+        <item>1310 체력측정론 김주학 3 월1000-1150</item>
+        <item>1311 운동을위한인체구조 박종성 3 화0900-1150</item>
+        <item>1312 발육과노화 박태섭 3 수0900-1150</item>
+        <item>1313 동작프로그램개발 고성희 3 목0900-1150</item>
+    </string-array>
+    <string-array name="music">
+        <item>1320 서양음악사 김영옥 2 금1100-1250</item>
+        <item>1321 반주법 장미경 2 월1000-1150</item>
+        <item>1322 음악통론 정혜윤 2 화1500-1650</item>
+    </string-array>
+    <string-array name="baduk">
+        <item>1330 바둑학개론 정수현 3 화1300-1550</item>
+        <item>1331 포석과정석 온소진 3 수1300-1550</item>
+        <item>1332 컴퓨터와바둑 감동근 3 월1300-1550</item>
+    </string-array>
+    <string-array name="musical">
+        <item>1340 세계영화사 장병원 3 금1000-1250</item>
+        <item>1341 현대영화의경향 김영진 3 목1400-1650</item>
+        <item>1342 할리우드영화연구 이길성 3 화1400-1650</item>
+    </string-array>
+    <string-array name="architect">
+        <item>1421 건축고고학실습 3 목0900-1150 최종규</item>
+        <item>1422 목구조역학 3 수1500-1750 김영민</item>
+        <item>1423 한옥실습 3 수0900-1150 백소훈</item>
+        <item>1424 동양건축사 3 화0900-1150 김왕직</item>
+    </string-array>
+    <string-array name="basicArchitecture">
+        <item>1411 건축설계와표현 4 월1400-1850 이재인</item>
+        <item>1422 건축설계 5 목1400-1850 남수현</item>
+        <item>1423 건축과문화 3 목1400-1450 김혜정</item>
+        <item>1424 건축구조의이해 3 화0900-1150 김영민</item>
+    </string-array>
+    <string-array name="digitalContents">
+        <item>2111 콘텐츠디자인1 김일주 3 09:00~10:15</item>
+    </string-array>
+    <string-array name="software">
+        <item>2121 객체지향적사고와프로그래밍 최성운 3 09:00~10:15</item>
+    </string-array>
+    <string-array name="management">
+        <item>2200 중급회계 김기영 3 화1500-1615,목1500-1615</item>
+        <item>2201 재무분석 심명화 3 월1630-1745,수1630-1745</item>
+        <item>2202 정부회계 박경진 3 월1500-1615,수1500-1615</item>
+        <item>2203 투자론 변영훈 3 월1330-1615,수1330-1445</item>
+        <item>2204 브랜드관리 이은정 3 월0900-1015,수0900-1015</item>
+        <item>2205 기업법2 이종훈 3 월1330-1445,수1330-1445</item>
+        <item>2206 노사관계론 이정현 3 월1030-1145,수1030-1145</item>
+        <item>2207 경영조직론 이상명 3 월1200-1315,수1200-1315</item>
+        <item>2208 관리회계 정다미 3 월1200-1315,수1200-1315</item>
+    </string-array>
+    <string-array name="internationalTrade">
+        <item>5996 국제무역론 조미진 3 월수1030-1145</item>
+        <item>5999 국제경제기구론 김태황 3 화목0900-1015</item>
+        <item>6000 무역실무 조병휘 3 월수1630-1745</item>
+        <item>6001 국제물류의이해 최가영 3 월수1030-1145</item>
+        <item>6003 글로벌강소기업론 박재석 3 화목1030-1145</item>
+    </string-array>
+    <string-array name="managementInformation">
+        <item>5988 정보공학 정동길 3 월수0900-1015</item>
+        <item>5989 법경제 김호균 3 화목1330-1445</item>
+        <item>5990 정보보호입문 정동길 3 월수1030-1145</item>
+        <item>5991 ERP개발 박성헌 3 화1500-1745</item>
+        <item>5992 데이터웨어하우징과마이닝 서필교 3 월수0900-1015</item>
+        <item>5993 회계정보시스템 김성구 3 화목0900-1015</item>
+    </string-array>
+    <string-array name="property">
+        <item>6228 감정평가이론 이수겸 3 토1300-1550</item>
+        <item>7048 부동산개발론 조인창 3 수2020-2245</item>
+        <item>7049 부동산컨설팅 권대중 3 수2020-2245</item>
+        <item>7051 부동산자산관리론 순희자 3 토1300-1550</item>
+        <item>7052 부동산개발사례연구 조인창 3 토1300-1550</item>
+        <item>7069 부동산입지론 김준형 3 수2020-2245</item>
+    </string-array>
+    <string-array name="managementEducation">
+        <item>1190 교육관리학 김성일 3 월1300-1550</item>
+    </string-array>
+    <string-array name="administration">
+        <item>1 행정학의이해 이현정 3 목1200-1445</item>
+        <item>2 지방행정론 임승빈 3 월수0900-1015</item>
+        <item>3 정책학원론 이시연 3 목0900-1145</item>
+        <item>4 사회복지정책론 이재성 3 화1200-1445</item>
+        <item>5 재정학 전성훈 3 수1500-1745</item>
+        <item>6 조직행태론 진종순 3 월수1330-1445</item>
+    </string-array>
+    <string-array name="economy">
+        <item>2321 경제통계 이명훈 3 수금1330-1445</item>
+        <item>2322 경제체제론 홍제환 3 화0900-1145</item>
+        <item>2323 국제경제학 안병창 3 금1030-1315</item>
+        <item>2324 한국경제사 김두얼 3 화목1030-1145</item>
+        <item>2325 화폐와금융 안종길 3 화목1330-1445</item>
+    </string-array>
+    <string-array name="politics">
+        <item>2321 정치학개론 정회옥 3 월수12:00-13:15</item>
+        <item>2322 국제정치론 정성철 3 화목13:30-14:45</item>
+        <item>2323 정치심리학 김도종 3 화15:00-17:45</item>
+    </string-array>
+    <string-array name="digitalMedia">
+        <item>2331 미디어의이해 이병혜 3 월수13:30-14:45</item>
+        <item>2332 커뮤니케이션이론 김기태 3 금15:00-17:45</item>
+        <item>2333 디지털미디어기술사회 최선규 3 화목12:00-13:15</item>
+
+    </string-array>
+    <string-array name="children">
+        <item>2341 아동학취업세미나 김진욱 3 수15:00-17:45</item>
+        <item>2342 한국가족생활문화 김윤전 3 월15:00-17:45</item>
+        <item>2343 아동건강교육 김민경 3 월12:00-14:45</item>
+    </string-array>
+    <string-array name="teenager">
+        <item>2350 청소년지도학2 조미영 2 금1000-1150</item>
+        <item>2351 청소년문화 권일남 3 월1500-1615,수1500-1615</item>
+        <item>2352 청소년심리및상담 한영희 3 월0900-1145</item>
+        <item>2353 청소년활동 권일남 3 목1500-1745</item>
+        <item>2354 청소년기관운영 박대권 3 화1200-1315,목1200-1315</item>
+        <item>2355 성격심리 이랑주 3 목0900-1145</item>
+        <item>2356 청소년육성제도론 김정율 3 화1750-2015</item>
+        <item>2357 정지취업세미나 박대권 2 월1100-1250</item>
+        <item>2358 집단상담 이은경 3 화0900-1145</item>
+        <item>2359 청소년교육론 조아미 3 월1330-1445,수1330-1445</item>
+    </string-array>
+    <string-array name="welfare">
+        <item>2360 사회복지행정론 이재성 3 토1600-1835</item>
+        <item>2361 가족복지론 김희진 3 토1300-1550</item>
+        <item>2362 사회복지현장실습 김민아 3 토0900-1150</item>
+        <item>2363 영화와사회복지 최인화 3 수2020-2245</item>
+        <item>2364 사회복지세미나 안희철 3 토0900-1150</item>
+        <item>2365 사회복지조사론 백주희 3 토1300-1550</item>
+    </string-array>
+    <string-array name="korean">
+        <item>2400 국어학의이해 조남호 3 월10:30-13:15</item>
+        <item>2401 국문학개론 남재철 3 월15:00-17:45</item>
+        <item>2402 국문학개론 남재철 3 금09:00-11:45</item>
+        <item>2403 고전소설론 이창헌 3 월14:30-17:15</item>
+        <item>2404 국어문법론 윤용선 3 화12:00-14:45</item>
+        <item>2405 현대시교육론 송승환 3 금12:00-14:45</item>
+        <item>2406 신화와설화다시읽기(honor) 이창헌 3 화13:30-16:15</item>
+        <item>2407 한국현대소설특강 이수형 3 목10:30-13:15</item>
+        <item>2408 국어학사 조남호 3 화10:30-13:15</item>
+        <item>2409 한국한문학선독(honor) 남재철 3 화15:00-17:45</item>
+    </string-array>
+    <string-array name="chinese">
+        <item>2410 중국어현장답사 강연 2 화16:30-18:15</item>
+        <item>2411 중국어발음원리와연습 김보경 3 화15:00-17:45</item>
+        <item>2412 중국어회화2 김명구 3 월15:00-17:45</item>
+        <item>2413 중국어회화2 최석원 3 목09:00-11:45</item>
+        <item>2414 중국고문읽기 김선희 3 화15:00-17:45</item>
+        <item>2415 중국고문읽기 주성일 3 수15:00-17:45</item>
+        <item>2416 중국소설의이해 김명구 3 목13:30-15:45</item>
+        <item>2417 중국어회화4 강연 3 화12:00-14:45</item>
+        <item>2418 중국어문법 성기은 3 월09:00-11:45</item>
+        <item>2419 중국어문법 성기은 3 화09:00-11:45</item>
+    </string-array>
+    <string-array name="japanese">
+        <item>2420 초급일본어회화2 스미유리카 3 월10:30-13:15</item>
+        <item>2421 전공기초일본어2 이은미 3 화13:30-16:15</item>
+        <item>2422 중급일본어회화2 사이코아사코 3 화09:00-11:45</item>
+        <item>2423 일본어강독2 이신혜 3 목15:00-17:45</item>
+        <item>2424 실용일본어작문 신은진 3 금15:00-17:45</item>
+        <item>2425 일본현대어문법 윤상실 3 월09:00-11:45</item>
+        <item>2426 일문학의이해 오찬욱 3 화15:00-17:45</item>
+        <item>2427 일본애니메이션의이해 오찬욱 3 수09:00-11:45</item>
+        <item>2428 매스컴일본어 오찬욱 3 목15:00-17:45</item>
+        <item>2429 일본인의언어생활 윤상실 3 금09:00-11:45</item>
+    </string-array>
+    <string-array name="english">
+        <item>2430 영문학개론 이기한 3 수1200-1315</item>
+        <item>2431 영어듣기의이론과실제 콜린워커 3 목1030-1145</item>
+        <item>2432 영미문학강독 손일수 3 금0900-1145</item>
+        <item>2433 중급영어회하 콜린워커 3 월0900-1015</item>
+        <item>2434 영어교육론 장지연 3 월1630-1745</item>
+    </string-array>
+    <string-array name="history">
+        <item>2440 한국사강독 박진훈 3 월1630-1745</item>
+        <item>2441 동양고대사 최해별 3 월1030-1145</item>
+        <item>2442 서양고대사 황원호 3 월1500-1745</item>
+        <item>2443 동양사강독 정철웅 3 화1630-1745</item>
+        <item>2444 동양근대사 최병욱 3 화1330-1445</item>
+    </string-array>
+    <string-array name="library">
+        <item>2450 정보학입문 김현희 3 월1330-1445</item>
+        <item>2451 도서관정보센터경영론 배창섭 3 월1500-1745</item>
+        <item>2452 정보문화사 송승섭 3 화1030-1145</item>
+        <item>2453 참고정보봉사론 권나현 3 화1330-1445</item>
+        <item>2454 고문헌조직론 안미경 3 화1500-1745</item>
+    </string-array>
+    <string-array name="artHistory">
+        <item>1 한국미술사 이주현 3 0900-1015</item>
+        <item>2 서양미술사 이지은 3 1030-1145</item>
+        <item>3 동양미술사 이태호 3 1200-1300</item>
+        <item>4 일본미술사 최선아 3 1300-1450</item>
+        <item>5 한국공예사 박정민 3 1500-1615</item>
+
+    </string-array>
+    <string-array name="philosophy">
+        <item>1 인식론 김준성 3 0900-1015</item>
+        <item>2 철학원론 강순전 3 1030-1145</item>
+        <item>3 논리학 김윤구 3 1200-1300</item>
+        <item>4 정의론 김한상 3 1300-1450</item>
+        <item>5 합리론 임석진 3 1500-1615</item>
+    </string-array>
+    <string-array name="arab">
+        <item>1 기초아랍어 안정국 3 0900-1015</item>
+        <item>2 아랍어문법 이종화 3 1030-1145</item>
+        <item>3 중급아랍어 조희선 3 1200-1300</item>
+        <item>4 아랍각국경제 송경근 3 1300-1450</item>
+        <item>5 아랍각국정치 김정명 3 1500-1615</item>
+    </string-array>
+    <string-array name="writing">
+        <item>1 시의이해 박상수 3 목1030-1315</item>
+        <item>2 소설의이해 김종욱 3 월1500-1745</item>
+        <item>3 시창작연구 남진우 3 금1500-1745</item>
+        <item>4 소설창작연구 신수정 3 화1330-1615</item>
+        <item>5 희곡의이해 이재명 3 월수1030-1145</item>
+        <item>6 소설구성론 노태훈 3 화목1630-1745</item>
+    </string-array>
+    <string-array name="lawC">
+        <item>2501 저작권과소프트웨어 김선주 3 09:00~10:15</item>
+    </string-array>
+
+</resources>

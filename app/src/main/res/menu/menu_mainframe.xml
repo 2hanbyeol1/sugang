@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myaccount"
+        android:title="@string/myAccount" />
+    <item
+        android:id="@+id/myMiri"
+        android:title="@string/myMiri" />
+    <item
+        android:id="@+id/mySincheong"
+        android:title="@string/mySincheong" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contact" />
+    <item
+        android:id="@+id/myiweb"
+        android:title="@string/lecturePlanner" />
+</menu>

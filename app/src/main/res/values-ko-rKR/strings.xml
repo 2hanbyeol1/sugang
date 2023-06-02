@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">명지대학교 수강신청</string>
+    <string name="myongjiUniversity">명지대학교</string>
+    <string name="signUpSystem">수강신청 시스템</string>
+    <string name="login">로그인</string>
+    <string name="pw">비밀번호</string>
+    <string name="id">아이디</string>
+    <string name="createAccount">계정 만들기</string>
+    <string name="autoLogin">자동 로그인</string>
+    <string name="findInfo">회원 정보 찾기</string>
+    <string name="mjuLogo">명지대 로고</string>
+    <string name="registration">가입하기</string>
+    <string name="nameHint">이름을 입력해주세요.</string>
+    <string name="studentIdHint">학번을 입력해주세요.</string>
+    <string name="passwordHint">비밀번호를 입력해주세요.</string>
+    <string name="confirmHint">비밀번호를 한번 더 입력해주세요.</string>
+    <string name="idHint">아이디를 입력해주세요.</string>
+    <string name="agreement">개인정보 수집 동의</string>
+    <string name="find">찾기</string>
+    <string name="name">이름</string>
+    <string name="studentId">학번</string>
+    <string name="myAccount">내 계정</string>
+    <string name="myMiri">미리담기 목록</string>
+    <string name="logout">로그아웃</string>
+    <string name="contact">개발자 문의</string>
+    <string name="lecturePlanner">강의계획서 확인</string>
+    <string name="confirm">비밀번호 확인</string>
+    <string name="mySincheong">신청 목록</string>
+</resources>
